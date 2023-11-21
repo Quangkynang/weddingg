@@ -1,0 +1,81 @@
+element.style {
+    --inner1Vh: 1.88px;
+    --sbw: 15px;
+}
+:root {
+    --ffsd: 0px;
+    --1vw: calc((100vw - var(--sbw, 0px)) / 100);
+    --1vh: var(--inner1Vh, 1vh);
+}
+body, html, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    font-synthesis: none;
+    font-kerning: none;
+    font-variant-ligatures: none;
+    font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0, "hlig" 0;
+    font-family: unset;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricprecision;
+    white-space: normal;
+}
+html {
+    zoom: var(--rzf, 1);
+    font-size: max(calc(min(var(--1vw, 1vw), 13.66px) * var(--rfso, 1)), var(--minfs, 0px));
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+html[Attributes Style] {
+    -webkit-locale: "vi-VN";
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+    element.style {
+        --inner1Vh: 1.88px;
+        --sbw: 15px;
+    }
+    :root {
+        --ffsd: 0px;
+        --1vw: calc((100vw - var(--sbw, 0px)) / 100);
+        --1vh: var(--inner1Vh, 1vh);
+    }
+    body, html, p, ul, ol, li {
+        margin: 0;
+        padding: 0;
+        font-synthesis: none;
+        font-kerning: none;
+        font-variant-ligatures: none;
+        font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0, "hlig" 0;
+        font-family: unset;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: geometricprecision;
+        white-space: normal;
+    }
+    html {
+        zoom: var(--rzf, 1);
+        font-size: max(calc(min(var(--1vw, 1vw), 13.66px) * var(--rfso, 1)), var(--minfs, 0px));
+        -webkit-text-size-adjust: 100%;
+        scroll-behavior: smooth;
+    }
+    html[Attributes Style] {
+        -webkit-locale: "vi-VN";
+    }
+    user agent stylesheet
+    :root {
+        view-transition-name: root;
+    }
+    user agent stylesheet
+    html {
+        display: block;
+    }
+    img {
+        border: 2px solid #0c0b0b;
+        box-shadow: 10px 10px #52d62a;
+    }
